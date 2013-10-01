@@ -15,6 +15,11 @@ __maintainer__ = "Jan Wuyts"
 __email__ = "Jan.Wuyts@gmail.com"
 __status__ = "Development"
 import sys
+#import os
+#import re
+#import itertools
+## FUNCTION AND CLASS DEFINITIONS ##########################
+
 ## UNIT TESTS ##############################################
 import unittest
 class UnitTest(unittest.TestCase):
@@ -57,9 +62,6 @@ info  = lambda x: logging.info(x)
 #######
 ## Do something useful here ################################
 ##############
-#import os
-#import re
-#import itertools
 #import numpy as np
 #import matplotlib as plt
 #import pandas as pd

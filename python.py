@@ -14,6 +14,11 @@ __status__ = "Development"
 import sys
 import logging
 import optparse
+#import os
+#import re
+#import itertools
+## FUNCTION AND CLASS DEFINITIONS ##########################
+
 ## UNIT TESTS ##############################################
 import unittest
 class UnitTest(unittest.TestCase):
@@ -49,9 +54,6 @@ def main(argv=None):
     #######
     ## Do something useful here ################################
     ##############
-#    import os
-#    import re
-#    import itertools
 
 
 
